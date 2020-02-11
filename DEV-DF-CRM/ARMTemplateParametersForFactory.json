@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DEV-DF-CRM"
+		},
+		"Accesso_ADW_US_connectionString": {
+			"value": ""
+		},
+		"Accesso_ADW_US_password": {
+			"value": ""
+		},
+		"DL_TSTMOBILEAPP_accountKey": {
+			"value": ""
+		},
+		"Accesso_ADW_US_properties_typeProperties_userName": {
+			"value": "attractions\\KKhan_admin"
+		},
+		"DL_TSTMOBILEAPP_properties_typeProperties_url": {
+			"value": "https://tstmobileapp.dfs.core.windows.net"
+		},
+		"GB01AP1063IR_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/934c0da0-cecd-4964-b5a0-ec4e9a880c9c/resourcegroups/EUW-TST-Mobile-App-Ticket-Retrieval/providers/Microsoft.DataFactory/factories/tstmobileappADF/integrationruntimes/UATEMEALONTM1"
+		}
+	}
+}
