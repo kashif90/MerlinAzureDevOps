@@ -8,7 +8,7 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Wait 10 secs",
+						"activity": "Wait 3 secs",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -91,7 +91,7 @@
 				}
 			},
 			{
-				"name": "Wait 10 secs",
+				"name": "Wait 3 secs",
 				"type": "Wait",
 				"dependsOn": [
 					{
@@ -103,7 +103,7 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
-					"waitTimeInSeconds": 10
+					"waitTimeInSeconds": 3
 				}
 			}
 		],
