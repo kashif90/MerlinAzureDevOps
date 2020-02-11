@@ -1,0 +1,25 @@
+{
+	"name": "PL_ADW_Parent",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute ADW Order",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "PL_RAW_ADW_Order",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"folder": {
+			"name": "ADW"
+		},
+		"annotations": []
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

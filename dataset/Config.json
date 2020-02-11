@@ -1,0 +1,20 @@
+{
+	"name": "Config",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DL_TSTMOBILEAPP",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Config.json",
+				"folderPath": "Control",
+				"fileSystem": "raw"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

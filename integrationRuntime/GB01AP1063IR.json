@@ -1,0 +1,12 @@
+{
+	"name": "GB01AP1063IR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/934c0da0-cecd-4964-b5a0-ec4e9a880c9c/resourcegroups/EUW-TST-Mobile-App-Ticket-Retrieval/providers/Microsoft.DataFactory/factories/tstmobileappADF/integrationruntimes/UATEMEALONTM1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
